@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Sebastian Richter <info@baschte.de>
 
-ENV NODEJS_VERSION 5.x
+ENV NODEJS_VERSION 6.x
 ENV GULP_VERSION 3.9.0
 
 RUN apt-get update \
