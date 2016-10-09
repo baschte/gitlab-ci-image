@@ -32,4 +32,5 @@ RUN curl -sS http://getcomposer.org/installer | php -- --install-dir=/bin --file
 
 RUN composer self-update \
 	&& npm install -g gulp@${GULP_VERSION} \
+	&& npm install -g typings \
 	&& npm install -g angular-cli
