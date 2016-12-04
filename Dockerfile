@@ -23,6 +23,7 @@ RUN apt-get update \
 	sudo \
 	build-essential \
 	libssl-dev \
+	libfontconfig \
 	&& curl -sL https://deb.nodesource.com/setup_${NODEJS_VERSION} | sudo -E bash -\
 	&& sudo apt-get install -y nodejs \
 	&& curl -sSL https://get.docker.com/ | sh
