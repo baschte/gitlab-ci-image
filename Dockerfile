@@ -16,6 +16,9 @@ RUN apt-get update \
 	wget \
 	openssl \
 	php7.0 \
+	php-mbstring \
+	php-curl \
+	php-xml \
 	git \
 	ssh \
 	curl \
