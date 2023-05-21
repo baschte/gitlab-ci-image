@@ -2,7 +2,7 @@ FROM ubuntu:xenial
 
 MAINTAINER Sebastian Richter <info@baschte.de>
 
-ENV NODEJS_VERSION 14.x
+ENV NODEJS_VERSION 18.x
 ENV GULP_VERSION 3.9.0
 ENV TZ Europe/Berlin
 
